@@ -33,7 +33,7 @@ console.log(`A maior palavra é ${maiorWord} com ${max} letras!`);
 
 //#4
 let numerosPrimos = [];
-let numeros = 100;
+let numeros = 50;
 
 for(let i = 0; i < numeros; i += 1){
     let divisores = 0;
