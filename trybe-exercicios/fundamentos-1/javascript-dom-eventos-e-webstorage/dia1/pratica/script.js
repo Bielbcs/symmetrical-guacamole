@@ -1,7 +1,7 @@
 document.querySelector('#header-container').style.backgroundColor = 'green';
 
 function changeClassColors(element, color) {
-    teste = document.getElementsByClassName(element);
+    let teste = document.getElementsByClassName(element);
     for (let i = 0; i < teste.length; i += 1) {
         teste[i].style.backgroundColor = color;
     }
